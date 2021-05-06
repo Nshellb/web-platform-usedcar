@@ -1,3 +1,54 @@
 body {
-  background: orange;
+  background: #F2F2F2;
+}
+
+/* change the background color */
+.navbar-custom {
+    background-color: #28467C;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(255, 255, 255);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* carousel-slide */
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+.carousel-item {
+  text-align: center;
+}
+
+/* carousel-height */
+.carousel {
+  height: 300px;
+}
+
+/* footer-custom */
+.footer {
+  text-align: center;
+  display: block;
+  background-color: #444;
+  color:#ccc; 
+  position : fixed; bottom:0;
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+  font-size: 14px;
 }
